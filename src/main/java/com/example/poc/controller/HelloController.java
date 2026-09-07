@@ -12,7 +12,7 @@ public class HelloController {
     public Map<String, String> home() {
         return Map.of(
             "application", "springboot-maven-poc",
-            "message", "Hello from my end!",
+            "message", "Hello from usssssssssssssssssssssss!",
             "status", "UP"
         );
     }
