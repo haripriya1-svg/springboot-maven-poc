@@ -21,3 +21,9 @@ jobs:
 
       - name: Maven Clean Package
         run: mvn clean package    
+
+      - name: Docker Login
+        uses: docker/login-action@v3
+        with:
+          username: haripriya1310
+          password: dckr_pat_VWMdcYNG9DdZJUr-k2vqb1XW4nE
